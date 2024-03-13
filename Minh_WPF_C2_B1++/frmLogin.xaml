@@ -1,0 +1,74 @@
+﻿<Window x:Class="Minh_WPF_C2_B1.frmLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Minh_WPF_C2_B1"
+        mc:Ignorable="d"
+        Title="frmLogin" Height="520" Width="525"
+        PreviewKeyDown="Window_PreviewKeyDown"
+        WindowStyle="None">
+    <Border Background="#295"
+            CornerRadius="10" BorderThickness="1" BorderBrush="#3099C5"
+            Margin="50" Padding="15 50 15 15" Width="330">
+        <StackPanel Name="stackpanel">
+            <!-- Sign up header -->
+            <Label Content="Sign In To Cinema-S" 
+                   FontSize="30" 
+                   Foreground="Crimson"
+                   TabIndex="-1"/>
+            <!-- Sign up SubText -->
+            <Label Content="Username" 
+                   FontSize="20" 
+                   Foreground="#BDBDBD"
+                   TabIndex="-1"/>
+            <!-- Username -->
+            <TextBox Tag="Username" 
+                     FontSize="30" 
+                     Padding="10" Margin="0 5 0 5" 
+                     BorderBrush="#3099C5"
+                     Name="txtUsername"
+                     TabIndex="0"/>
+            <!-- Sign up SubText -->
+            <Label Content="Password" 
+                   FontSize="20" 
+                   Foreground="#BDBDBD"
+                   TabIndex="-1"/>
+            <!-- Password -->
+            <PasswordBox Tag="Password" 
+                         FontSize="30" Padding="10" Margin="0 5 0 5"
+                         BorderBrush="#3099C5"
+                         Name="pwbPassword"
+                         TabIndex="1"/>
+            <!-- Login Button -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="150"/>
+                </Grid.ColumnDefinitions>
+                <Button Content="Sign in" 
+                        Background="#235" Foreground="#FFFFFF"
+                        FontSize="30" Padding="20 10" Margin="0 10"
+                        BorderThickness="0" 
+                        HorizontalAlignment="Left"
+                        HorizontalContentAlignment="Center"   
+                        Name="btnLogin"
+                        Click="btnLogin_Click"
+                        Grid.Column="0"
+                        TabIndex="2"/>
+
+                <Button Content="Exit" 
+                        Background="#235" Foreground="#FFFFFF"
+                        FontSize="30" Padding="20 10" Margin="0,10"
+                        BorderThickness="0" 
+                        HorizontalAlignment="Center"
+                        HorizontalContentAlignment="Center"   
+                        x:Name="btnExit"
+                        Click="btnExit_Click"
+                        Grid.Column="1"
+                        TabIndex="3"/>
+            </Grid>
+
+        </StackPanel>
+    </Border>
+</Window>

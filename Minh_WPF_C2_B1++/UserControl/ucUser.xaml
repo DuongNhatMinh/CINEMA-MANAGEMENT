@@ -1,0 +1,99 @@
+﻿<UserControl x:Class="Minh_WPF_C2_B1.ucUser"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Minh_WPF_C2_B1"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <local:StatusToStringConverter x:Key="statusToStringConverter"/>
+    </UserControl.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="565"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Label Background="Wheat"
+                   HorizontalContentAlignment="Center">
+                Manage User
+            </Label>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1"
+                    HorizontalAlignment="Left">
+            <Button Background="Cyan"
+                    Content="Add"
+                    Width="50"
+                    Height="30"
+                    Margin="10,0,0,0"
+                    Name="btnAdd"
+                    Click="btnAdd_Click"/>
+        </StackPanel>
+        <DataGrid Name="dtgUser"
+                  Height="210"
+                  HorizontalAlignment="Left"
+                  Margin="10,10,0,10"
+                  VerticalAlignment="Top"
+                  Width="410"
+                  Grid.Row="2"
+                  RowHeight = "30" 
+                  ColumnWidth = "65"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  DisplayMemberPath="UserName">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="UserName " 
+                                    Binding="{Binding UserName, UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridTextColumn Header="Password" 
+                                    Binding="{Binding Password, UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridTextColumn Header="Role"
+                                    Width="40"
+                                    Binding="{Binding Role}"/>
+                <DataGridTextColumn Header="Status"
+                                     Binding="{Binding Status, Converter={StaticResource statusToStringConverter}}"/>
+                <DataGridTemplateColumn Header="Edit" 
+                                        IsReadOnly="True"
+                                        Width="50">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Edit" 
+                                    Name="btnEdit"
+                                    Click="btnEdit_Click"
+                                    Background="Cyan"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Lock" 
+                                        IsReadOnly="True"
+                                        Width="50">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Lock" 
+                                    Name="btnDelete"
+                                    Background="Cyan"
+                                    Click="btnDelete_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="UnLock" 
+                                        IsReadOnly="True"
+                                        Width="50">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="UnLock" 
+                                    Name="btnUnLock"
+                                    Background="Cyan"
+                                    Click="btnUnLock_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

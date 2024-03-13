@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CinemaStore>
+  <Cinema IdCinema="STA01" Name="Standard 1" Type="Standard" PriceCenter="60000">
+    <Chair Id="C01A" Name="1A" Type="A" Status="1" />
+    <Chair Id="C02A" Name="2A" Type="A" Status="1" />
+    <Chair Id="C03A" Name="3A" Type="A" Status="0" />
+    <Chair Id="C04A" Name="4A" Type="A" Status="0" />
+    <Chair Id="C05A" Name="5A" Type="A" Status="0" />
+    <Chair Id="C01B" Name="1B" Type="B" Status="0" />
+    <Chair Id="C02B" Name="2B" Type="B" Status="0" />
+    <Chair Id="C03B" Name="3B" Type="B" Status="0" />
+    <Chair Id="C04B" Name="4B" Type="B" Status="0" />
+    <Chair Id="C05B" Name="5B" Type="B" Status="0" />
+    <Chair Id="C01C" Name="1C" Type="C" Status="0" />
+    <Chair Id="C02C" Name="2C" Type="C" Status="0" />
+    <Chair Id="C03C" Name="3C" Type="C" Status="0" />
+    <Chair Id="C04C" Name="4C" Type="C" Status="0" />
+    <Chair Id="C05C" Name="5C" Type="C" Status="0" />
+    <Chair Id="C01D" Name="1D" Type="D" Status="0" />
+    <Chair Id="C02D" Name="2D" Type="D" Status="0" />
+    <Chair Id="C03D" Name="3D" Type="D" Status="0" />
+    <Chair Id="C04D" Name="4D" Type="D" Status="0" />
+    <Chair Id="C05D" Name="5D" Type="D" Status="0" />
+    <Chair Id="C01E" Name="1E" Type="E" Status="0" />
+    <Chair Id="C02E" Name="2E" Type="E" Status="0" />
+    <Chair Id="C03E" Name="3E" Type="E" Status="0" />
+    <Chair Id="C04E" Name="4E" Type="E" Status="0" />
+    <Chair Id="C05E" Name="5E" Type="E" Status="0" />
+  </Cinema>
+  <Cinema IdCinema="Vip01" Name="Vip 1" Type="Vip" PriceCenter="100000">
+    <Chair Id="C01A" Name="1A" Type="A" Status="0" />
+    <Chair Id="C02A" Name="2A" Type="A" Status="0" />
+    <Chair Id="C03A" Name="3A" Type="A" Status="0" />
+    <Chair Id="C04A" Name="4A" Type="A" Status="0" />
+    <Chair Id="C05A" Name="5A" Type="A" Status="0" />
+    <Chair Id="C01B" Name="1B" Type="B" Status="0" />
+    <Chair Id="C02B" Name="2B" Type="B" Status="0" />
+    <Chair Id="C03B" Name="3B" Type="B" Status="0" />
+    <Chair Id="C04B" Name="4B" Type="B" Status="0" />
+    <Chair Id="C05B" Name="5B" Type="B" Status="0" />
+    <Chair Id="C01C" Name="1C" Type="C" Status="0" />
+    <Chair Id="C02C" Name="2C" Type="C" Status="0" />
+    <Chair Id="C03C" Name="3C" Type="C" Status="0" />
+    <Chair Id="C04C" Name="4C" Type="C" Status="0" />
+    <Chair Id="C05C" Name="5C" Type="C" Status="0" />
+    <Chair Id="C01D" Name="1D" Type="D" Status="0" />
+    <Chair Id="C02D" Name="2D" Type="D" Status="0" />
+    <Chair Id="C03D" Name="3D" Type="D" Status="0" />
+    <Chair Id="C04D" Name="4D" Type="D" Status="0" />
+    <Chair Id="C05D" Name="5D" Type="D" Status="0" />
+    <Chair Id="C01E" Name="1E" Type="E" Status="0" />
+    <Chair Id="C02E" Name="2E" Type="E" Status="0" />
+    <Chair Id="C03E" Name="3E" Type="E" Status="0" />
+    <Chair Id="C04E" Name="4E" Type="E" Status="0" />
+    <Chair Id="C05E" Name="5E" Type="E" Status="0" />
+  </Cinema>
+</CinemaStore>

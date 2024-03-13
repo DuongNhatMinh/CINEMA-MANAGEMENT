@@ -1,0 +1,11 @@
+D:\btVisual\Minh_OOP_C5_B1+\Minh_OOP_C5_B1+\bin\Debug\Minh_OOP_C4_B3.exe.config
+D:\btVisual\Minh_OOP_C5_B1+\Minh_OOP_C5_B1+\bin\Debug\Minh_OOP_C4_B3.exe
+D:\btVisual\Minh_OOP_C5_B1+\Minh_OOP_C5_B1+\bin\Debug\Minh_OOP_C4_B3.pdb
+D:\btVisual\Minh_OOP_C5_B1+\Minh_OOP_C5_B1+\obj\Debug\Minh_OOP_C4_B3.exe
+D:\btVisual\Minh_OOP_C5_B1+\Minh_OOP_C5_B1+\obj\Debug\Minh_OOP_C4_B3.pdb
+D:\btVisual\Minh_OOP_C5_B1++\Minh_OOP_C5_B1++\bin\Debug\Minh_OOP_C4_B3.exe.config
+D:\btVisual\Minh_OOP_C5_B1++\Minh_OOP_C5_B1++\obj\Debug\Minh_OOP_C4_B3.exe
+D:\btVisual\Minh_OOP_C5_B1++\Minh_OOP_C5_B1++\obj\Debug\Minh_OOP_C4_B3.pdb
+D:\btVisual\Minh_OOP_C5_B1++\Minh_OOP_C5_B1++\obj\Debug\Minh_OOP_C5_B1++.csprojResolveAssemblyReference.cache
+D:\btVisual\Minh_OOP_C5_B1++\Minh_OOP_C5_B1++\bin\Debug\Minh_OOP_C4_B3.exe
+D:\btVisual\Minh_OOP_C5_B1++\Minh_OOP_C5_B1++\bin\Debug\Minh_OOP_C4_B3.pdb

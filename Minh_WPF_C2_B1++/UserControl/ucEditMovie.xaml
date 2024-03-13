@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="Minh_WPF_C2_B1.ucEditMovie"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Minh_WPF_C2_B1"
+             mc:Ignorable="d" Height="200">
+    <Grid>
+        <Label Background="Wheat"
+               Height="25"
+               HorizontalContentAlignment="Center"
+               VerticalAlignment="Top">
+            Manage Movie
+        </Label>
+        <Label Content="Name"
+                   Width="100" Height="25"
+                   HorizontalAlignment="Left" Margin="0,0,0,110.2"/>
+        <TextBox x:Name="txtName"
+                 Width="100" Height="25"
+                 HorizontalAlignment="Left" Margin="100,0,0,110"/>
+        
+        <Label Content="Type"
+                   Width="100" Height="25"
+                   HorizontalAlignment="Left" Margin="248,0,0,109.8"/>
+        <TextBox Name="txtType"
+                     Width="100" Height="25"
+                     HorizontalAlignment="Left" Margin="348,0,0,109.8">
+        </TextBox>
+        
+        <Label Content="Content"
+                   Width="100" Height="25"
+                   HorizontalAlignment="Left" Margin="0,55,0,56.4"/>
+        <TextBox Name="txtContent"
+                     Width="100" Height="25"
+                     HorizontalAlignment="Left" Margin="100,55,0,56">
+        </TextBox>
+        
+        <Label Content="Duration"
+                   Width="100" Height="25"
+                   HorizontalAlignment="Left" Margin="248,55,0,56.8"/>
+        <TextBox Name="txtDuration"
+                     Width="100" Height="25"
+                     HorizontalAlignment="Left" Margin="348,55,0,55.8">
+        </TextBox>
+
+        <Label Content="Url"
+                   Width="100" Height="25"
+                   HorizontalAlignment="Left" Margin="0,111,0,0.6"/>
+        <TextBox Name="txtUrl"
+                     Width="100" Height="25"
+                     HorizontalAlignment="Left" Margin="100,111,0,-0.4">
+        </TextBox>
+    </Grid>
+</UserControl>

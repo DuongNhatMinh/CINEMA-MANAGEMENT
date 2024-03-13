@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Orders>
+  <Order Id="1" IdMovie="MOV03" NameMovie="The Flash: Movie" CinemaType="Standard" CustomerName="Minh" Phone="0323154565" Date="02/07/2023 08:00" Total="80000">
+    <DetailOrder IdOrder="1" TicketType="Adult" SeatNo="1A" Price="40000" />
+    <DetailOrder IdOrder="1" TicketType="Adult" SeatNo="2A" Price="40000" />
+  </Order>
+</Orders>

@@ -1,0 +1,6 @@
+D:\btVisual\Minh_OOP_C4_B3\Minh_OOP_C4_B3\bin\Debug\Minh_OOP_C4_B3.exe.config
+D:\btVisual\Minh_OOP_C4_B3\Minh_OOP_C4_B3\bin\Debug\Minh_OOP_C4_B3.exe
+D:\btVisual\Minh_OOP_C4_B3\Minh_OOP_C4_B3\bin\Debug\Minh_OOP_C4_B3.pdb
+D:\btVisual\Minh_OOP_C4_B3\Minh_OOP_C4_B3\obj\Debug\Minh_OOP_C4_B3.exe
+D:\btVisual\Minh_OOP_C4_B3\Minh_OOP_C4_B3\obj\Debug\Minh_OOP_C4_B3.pdb
+D:\btVisual\Minh_OOP_C4_B3\Minh_OOP_C4_B3\obj\Debug\Minh_OOP_C4_B3.csprojResolveAssemblyReference.cache

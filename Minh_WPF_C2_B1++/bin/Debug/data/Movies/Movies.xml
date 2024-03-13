@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Movies>
+  <Movie Id="MOV01" Name="Avengers: Endgame" Type="Action" Content="The Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe." Duration="181" Url="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_FMjpg_UX1000_.jpg" Status="0">
+  </Movie>
+  <Movie Id="MOV02" Name="Fast And Furious X" Type="Action" Content="Dom Toretto and his family are targeted by the vengeful son of drug lord Hernan Reyes." Duration="141" Url="https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/7/0/700x1000-fastx_1.jpg" Status="0">
+  </Movie>
+  <Movie Id="MOV03" Name="The Flash: Movie" Type="Action" Content="This summer, the multi-worlds will collide fiercely with the steps of FLASH" Duration="144" Url="https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/v/n/vn_flash_vert_intl_montage_2764x4096.jpg" Status="0">
+  </Movie>
+  <Movie Id="MOV04" Name="Spider Man Across The Spider Verse" Type="Action, Cartoon" Content="Miles Morales reappears in the sequel to the Oscar-winning animated&#xD;&#xA;blockbuster - Spider-Man: Across the Spider-Verse. After meeting Gwen Stacy again, the friendly Spider-Man from Brooklyn must travel through the multiverse and meet a group of Spider-Man charged with protecting parallel universes. But when the group of superheroes clash over how to handle a new threat, Miles is forced to pit himself against other Spider-Mans and must redefine what it means to be a hero so he can save the people he loves.dearest." Duration="140" Url="https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/r/s/rsz_spiderverse2_poster_4.jpg" Status="0">
+  </Movie>
+  <Movie Id="MOV05" Name="Guardians of The Galaxy Vol 3" Type="Action" Content="Guardians of the galaxy vol 3" Duration="149" Url="https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/3/5/350x495_1.png" Status="0">
+  </Movie>
+</Movies>

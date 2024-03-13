@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schedules>
+  <Schedule Id="LT01" Date="02/07/2023" Status="0">
+    <Showtime Hour="8" Minute="00" />
+    <Showtime Hour="10" Minute="30" />
+    <Showtime Hour="12" Minute="00" />
+    <Showtime Hour="20" Minute="30" />
+    <Showtime Hour="22" Minute="00" />
+  </Schedule>
+  <Schedule Id="LT02" Date="3/7/2023" Status="0">
+    <Showtime Hour="8" Minute="00" />
+    <Showtime Hour="10" Minute="30" />
+    <Showtime Hour="12" Minute="00" />
+    <Showtime Hour="20" Minute="30" />
+    <Showtime Hour="22" Minute="00" />
+  </Schedule>
+</Schedules>
